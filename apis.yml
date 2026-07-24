@@ -1,9 +1,28 @@
 aid: clear-ballot
 name: Clear Ballot
-description: 'Clear Ballot is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Clear Ballot Group, Inc. is an election technology company that builds
+  transparent, verifiable voting systems for election administrators across the United
+  States. Its flagship ClearVote platform spans vote-by-mail processing, in-person
+  voting, ballot design, and independent post-election audit and results-verification
+  software, alongside offerings for ranked-choice voting and elections-as-a-service.
+  Clear Ballot operates as a closed, certified election-systems vendor rather than a
+  public API platform, so this profile is identity- and security-focused: it captures
+  the company''s public web presence, domain-security posture, and its published
+  vulnerability-disclosure program. Surfaced as a portfolio company of Bessemer Venture
+  Partners and enriched by the API Evangelist pipeline.'
 url: https://raw.githubusercontent.com/api-evangelist/clear-ballot/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.clearballot.com/hubfs/raw_assets/public/Clear_ballot_December2021/images/logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Vertical Software
+- Election Technology
+- Voting Systems
+- GovTech
+- Civic Technology
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.clearballot.com/
+- type: About
+  url: https://www.clearballot.com/about-us?hsLang=en
+- type: Products
+  url: https://www.clearballot.com/products?hsLang=en
+- type: Support
+  url: https://www.clearballot.com/support?hsLang=en
+- type: Blog
+  url: https://www.clearballot.com/news?hsLang=en
+- type: Contact
+  url: https://www.clearballot.com/company/contact?hsLang=en
+- type: PrivacyPolicy
+  url: https://www.clearballot.com/privacy-policy
+- type: TermsOfService
+  url: https://www.clearballot.com/website-disclaimer-0
+- type: DomainSecurity
+  url: security/clear-ballot-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/clear-ballot-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.clearballot.com/vulnerability-disclosure
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
